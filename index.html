@@ -133,7 +133,7 @@ var PHOTO_URL = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAUE
     var name=document.getElementById('nm').value.trim();
     if(name.split(/\s+/).length<2){document.getElementById('err').textContent='Խնդրում ենք գրել անունը և ազգանունը';return}
     document.getElementById('err').textContent='';
-    var msg='Բարև Ձեզ 💙 Ես՝ '+name+', հաստատում եմ ներկայությունս Մառկի կնունքին, ատամհատիկին և ծննդյան տոնին։ Մարդկանց թիվը՝ '+n+'։';
+    var msg='Բարև Ձեզ 💙 Ես՝ '+name+', հաստատում եմ ներկայությունս Մարկի կնունքին, ատամհատիկին և ծննդյան տոնին։ Մարդկանց թիվը՝ '+n+'։';
     var wa='https://wa.me/'+PHONE+'?text='+encodeURIComponent(msg);
     document.getElementById('wa').href=wa;
     document.getElementById('sms').href='sms:+'+PHONE+'?&body='+encodeURIComponent(msg);
